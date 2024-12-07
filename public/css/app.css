@@ -1,0 +1,165 @@
+/* Styles généraux */
+body {
+    font-family: "Roboto", sans-serif; /* Typo moderne */
+    background-color: #121212; /* Fond sombre pour l’ambiance cinéma */
+    color: #e0e0e0; /* Texte plus doux pour plus de lisibilité */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #2a2a2a; /* Couleur plus sophistiquée */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.navbar a {
+    color: #ffdc32; /* Doré, rappelant les projecteurs de cinéma */
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ff4747; /* Rouge plus lumineux pour l’interaction */
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+/* Boutons */
+.button,
+.btn {
+    background-color: #ffdc32; /* Doré */
+    border: none;
+    color: #121212; /* Texte sombre */
+    padding: 12px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover,
+.btn:hover {
+    background-color: #ff4747; /* Rouge vif pour l’action */
+    transform: scale(1.05);
+}
+
+/* Conteneurs */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Cartes de films */
+.card {
+    background-color: #1f1f1f;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.4); /* Ombre plus nette */
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Effet de survol pour mettre en avant */
+}
+
+.card h2 {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #bdbdbd; /* Gris clair pour une meilleure lisibilité */
+    font-size: 14px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.card img:hover {
+    transform: scale(1.05); /* Effet zoom sur l’image */
+}
+
+/* Formulaires */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: #e0e0e0;
+    font-size: 16px;
+}
+
+input[type="submit"],
+button[type="submit"] {
+    background-color: #ffdc32;
+    color: #e8e8e8;
+    padding: 12px 25px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+    background-color: #ff4747;
+    transform: scale(1.05);
+}
+
+/* Pied de page */
+.footer {
+    background-color: #2a2a2a;
+    padding: 20px;
+    text-align: center;
+    color: #e0e0e0;
+    font-size: 14px;
+    box-shadow: 0px -4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.footer a {
+    color: #ffdc32;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #ff4747;
+}
+
+/* Animation globale */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    animation: fadeIn 1s ease-out;
+}

@@ -1,0 +1,37 @@
+<?php
+// EN folder
+return [
+    'Liste des films' => 'Films list',
+    'A propos' => 'About',
+    'Ajouter un film' => 'Add film',
+    'Ajouter' => 'Add film',
+    'nom' => 'Name',
+    'Savoir' => 'See more',
+    'Ajouter un Film' => 'Add movie',
+    'En savoir plus' => 'Learn more',
+    'Modifier' => 'Edit',
+    'Supprimer' => 'Delete',
+    'Retour à la page d\'accueil' => 'Return to the homepage',
+   'Statut' => 'Status',
+    'À voir' => 'To watch',
+    'Vu' => 'Seen',
+    'En cours' => 'In progress',
+    'Enregistrer' => 'Save',
+    'en cours' => 'in progress',
+    'à voir' => 'to watch',
+    'vu' => 'Seen',
+    'Ajouter un enregistrement' => 'Add a record',
+    'Enregistrement_numero' => 'Record number ',
+    'le' => 'the',
+    'Les enregistrements' => 'Records',
+    'Créé le' => 'Created on',
+    'Pirate des Pirates des Caraïbes' => 'Pirates of the Caribbean',
+    'science fiction' => 'Science Fiction',
+    'aventure' => 'Adventure',
+    'horreur' => 'Horror',
+    'humour' => 'Comedy',
+    'drame' => 'Drama',
+    'action' => 'Action',
+
+    
+];
